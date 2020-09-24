@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= pageTitle %> </title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1 class="title"><%= pageTitle %></h1>
+    <form id="createTask" , action="/createTask" method="post">
+      <input id="taskName" type="text" name="text" placeholder="New Task" required>
+      <input class="button" type="submit" value="Create">
+    </form>
+
+    <% let newTasks = taskLists.filter(task => task.done === false) %>
+    <% if(newTasks.length > 0) { %>
+    <h2 class="subtitle_one">Tasks</h2>
+    <%}%>
+    <% if(taskLists.length > 0) { %>
+    <div class="tasks_container">
+      <% taskLists.forEach((task, index) => { %>
+      <% if(!task.done) { %>
+      <label class="checkContainer"><input class="checkBox" type="checkbox" onchange="taskDone('<%=index%>')">
+        <%=task.text%> </label><br>
+      <%}%>
+    <%}) %>
+      <%} else {%>
+      <h3>No Tasks</h3>
+      <%}%>
+    </div>
+
+    <% let finished = taskLists.filter(task => task.done) %>
+      <% if(finished.length > 0) {%>
+      <h2 class="subtitle_two">Finished Tasks</h2>
+
+      <div class="tasks_container">
+        <% taskLists.forEach((task, index) => { %>
+        <% if(task.done) { %>
+        <div class="finished">
+          <div class="left">
+            <label class="checkContainer"><input class="checkBox" type="checkbox" onchange="taskDone('<%=index%>')"
+                checked>
+              <%=task.text%> </label>
+          </div>
+          <div class="right">
+            <button class="button button-red" onclick="deleteTask('<%=index%>')">Delete</button><br>
+          </div>
+        </div>
+        <%}%>
+    <%}) %>
+      </div>
+      <% } %>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/js/lists.js"></script>
+</body>
+
+</html>
