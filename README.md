@@ -4,8 +4,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template" style="color:red; font-size: 25px">
-    TO-DO
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="./static/images/logo.png" alt="Logo" width="80" height="50">
   </a>
 
   <h3 align="center">A beautiful To-Do list</h3>
@@ -13,13 +13,13 @@
   <p align="center">
     Project created by <strong> guerracode </strong>
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>View Demo »</strong></a>
+    <a href="https://to-do-beta.vercel.app/"><strong>View Demo »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/guerracode/To-Do/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/guerracode/To-Do/issues">Request Feature</a>
   </p>
 </p>
 
@@ -40,9 +40,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](./static/images/start.png)
 
-This is a personal project I've created, to practice my skills with Node and Express.
+This is a personal project I've created to practice my skills with Node and Express.
 
 ### Built With
 
@@ -61,7 +61,7 @@ All the tasks are stored in an Express session, so every time the user visits th
 
 ### Prerequisites
 
-Use test this project locally, or visit our [web page](https://nodejs.org/en/).
+Use test this project locally, or visit our [web page](https://to-do-beta.vercel.app/).
 
 - npm
 
@@ -93,7 +93,7 @@ npm start
 
 ## Usage
 
-1. When starting locally or visiting the [web page](https://nodejs.org/en/) you will see a screen like this:
+1. When starting locally or visiting the [web page](https://to-do-beta.vercel.app/) you will see a screen like this:
    ![](./static/images/start.png)
 
 2. Enter a new Task in the input field and click **create**.
@@ -122,12 +122,12 @@ Contributions are what make the open source community such an amazing place to b
 
 Your Name - [@guerracode](https://twitter.com/guerracode) - josephsiul15@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/your_username/repo_name](https://github.com/guerracode/To-Do)
 
 <!-- LINKS -->
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/guerracode/To-Do/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jose-luis-chavez/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: ./static/images/example.png
