@@ -13,7 +13,7 @@
   <p align="center">
     Project created by <strong> guerracode </strong>
     <br />
-    <a href="https://to-do-beta.vercel.app/"><strong>View Demo »</strong></a>
+    <a href="https://to-do-guerracode.herokuapp.com/"><strong>View Demo »</strong></a>
     <br />
     <br />
     ·
@@ -61,7 +61,7 @@ All the tasks are stored in an Express session, so every time the user visits th
 
 ### Prerequisites
 
-Use test this project locally, or visit our [web page](https://to-do-beta.vercel.app/).
+Use test this project locally, or visit our [web page](https://to-do-guerracode.herokuapp.com/).
 
 - npm
 
@@ -93,7 +93,7 @@ npm start
 
 ## Usage
 
-1. When starting locally or visiting the [web page](https://to-do-beta.vercel.app/) you will see a screen like this:
+1. When starting locally or visiting the [web page](https://to-do-guerracode.herokuapp.com/) you will see a screen like this:
    ![](./static/images/start.png)
 
 2. Enter a new Task in the input field and click **create**.
@@ -122,7 +122,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Your Name - [@guerracode](https://twitter.com/guerracode) - josephsiul15@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/guerracode/To-Do)
+Project Link: [GitHub](https://github.com/guerracode/To-Do)
 
 <!-- LINKS -->
 
